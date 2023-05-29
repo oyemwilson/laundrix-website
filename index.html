@@ -1,115 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- animate on scroll -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./index.css">
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+
+
     <title>Laundrix Global</title>
-    <link rel="icon" href="./laundrix.png">
+    <link rel='icon' href='./images/laundrix-logo.png'>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'></head>
+    <script src='https://code.jquery.com/jquery-3.4.1.slim.min.js' integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js' integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css' integrity='sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO' crossorigin='anonymous'>
+
+    <!-- animate on scroll -->
+    <link href='https://unpkg.com/aos@2.3.1/dist/aos.css' rel='stylesheet'>
+    <link rel='stylesheet' href='./index.css'>
   </head>
   <body>
-    <div class="background">
-      <div data-aos="fade-up" >
+    <div class='background'>
+      <div data-aos='fade-up' >
         <header>
-          <nav class="navbar navbar-expand-md navbar-dark " id="topnav">
-            <a class="navbar-brand" href="#">
-                <img src="./laundrix.png" width="80" height="50" alt="">
+          <nav class='navbar navbar-expand-md navbar-dark ' id='topnav'>
+            <a class='navbar-brand' href='#'>
+                <img src='./images/laundrix-logo.png' width='80' height='50' alt=''>
             </a>
-            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button class='navbar-toggler ' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+              <span class='navbar-toggler-icon'></span>
             </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+
+            <div class='collapse navbar-collapse' id='navbarSupportedContent'>
+              <ul class='navbar-nav mx-auto'>
+                <li class='nav-item active'>
+                  <a class='nav-link' href='#'>Home<span class='sr-only'>(current)</span></a>
                 </li>
-                <div class="dropdown-divider"></div>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                <div class='dropdown-divider'></div>
+                <li class='nav-item'>
+                  <a class='nav-link' href='#'>About</a>
                 </li>
-                <div class="dropdown-divider"></div>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>              
+                <div class='dropdown-divider'></div>
+                <li class='nav-item'>
+                  <a class='nav-link' href='#'>Pricing</a>
+                </li>
               </ul>
-              <div class="dropdown-divider"></div>
-              <div class="btn-container">
-                <button class="btn-header">Contact Us</button>
+              <div class='dropdown-divider'></div>
+              <div class='btn-container'>
+                <button class='btn-header'>Contact Us</button>
               </div>
             </div>
           </nav>
         </header>
-        <section id="">
-          <div class="top-page-container">
-            <div class="top-text">
-              <h1>CLEAN CLOTHES IN AN INSTANT<i class="bi bi-stars"></i></h1>
+        <section id=''>
+          <div class='top-page-container'>
+            <div class='top-text'>
+              <h1>CLEAN CLOTHES IN AN INSTANT<i class='bi bi-stars'></i></h1>
               <p>A convinient laundry solution that helps protect the enviroment.</p>
-              <button class="btn">Request Pick-up</button>
+              <button class='btn'>Request Pick-up</button>
             </div>
-            <div class="top-photo">
-              <div data-aos="zoom-in-left" >
-              <img src="./hand-on-phone.png" alt="">
+            <div class='top-photo'>
+              <div data-aos='zoom-in-left' >
+              <img src='./images/hand-on-phone.png' alt=''>
               </div>
             </div>
           </div>
         </section>
       </div>
     </div>
-    <section id="stakeholders">
-      <div data-aos="fade-up" >
-        <div class="stakeholders-container">
-          <img src="./images/CAC logo.png" alt="">
-          <img src="./images/NECA-NEW-LOGO.webp" alt="">
+    <section id='stakeholders'>
+      <div data-aos='fade-up' >
+        <div class='stakeholders-container'>
+          <img src='./images/cac-logo.png' alt=''>
+          <img src='./images/neca-logo.webp' alt=''>
         </div>
     </div>
     </section>
 
-    <section id="how-it-works">
-      
-      <div class="section-header-text">
-        <div data-aos="fade-up" >
+    <section id='how-it-works'>
+
+      <div class='section-header-text'>
+        <div data-aos='fade-up' >
         <h1>How Laundrix Works</h1>
       </div>
       </div>
-      <div class="steps">
-        <div data-aos="fade-up" >
-        <div class="row d-flex align-items-center">
-          <div class="col-lg-6 col-md-6 col-sm-12 mt-0">
-            <div class="left">
-              <img src="./pexels-karolina-grabowska-4506231.jpg" alt="" class="schedule-photo">
-                <div class="photo-card">
-                  <div data-aos="fade-right" data-aos-delay="400">
-                    <div class="photocard-text">
-                      <div class="text-margin-left">
-                      <h6>Pick-up schedule</h6> 
-                      <p class="m-0"><i class="bi bi-calendar-date"></i> mon-sat <i class="bi bi-alarm"></i> 8:00-5:00</p>
+      <div class='steps'>
+        <div data-aos='fade-up' >
+        <div class='row d-flex align-items-center'>
+          <div class='col-lg-6 col-md-6 col-sm-12 mt-0'>
+            <div class='left'>
+              <img src='./images/stock-photo_moving-box.jpg' alt='' class='schedule-photo'>
+                <div class='photo-card'>
+                  <div data-aos='fade-right' data-aos-delay='400'>
+                    <div class='photocard-text'>
+                      <div class='text-margin-left'>
+                      <h6>Pick-up schedule</h6>
+                      <p class='m-0'><i class='bi bi-calendar-date'></i> mon-sat <i class='bi bi-alarm'></i> 8:00-5:00</p>
                       </div>
                     </div>
                   </div>
                 </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="right">
-              <p class="m-0">Schedule</p>
+          <div class='col-lg-6 col-md-6 col-sm-12'>
+            <div class='right'>
+              <p class='m-0'>Schedule</p>
               <h2>Schedule a pick-up</h2>
               <p>Save time money and energy and start washing with us, How to schedule?</p>
-              <p><i class="bi bi-check-square-fill"></i> Bag your dirty laundry</p>
-              <p><i class="bi bi-check-square-fill"></i> Book an appointment</p>
-              <p><i class="bi bi-check-square-fill"></i> Our riders will come to you</p>
+              <p><i class='bi bi-check-square-fill'></i> Bag your dirty laundry</p>
+              <p><i class='bi bi-check-square-fill'></i> Book an appointment</p>
+              <p><i class='bi bi-check-square-fill'></i> Our riders will come to you</p>
             </div>
           </div>
         </div>
@@ -117,30 +125,30 @@
       </div>
 
 
-      <div class="steps-inverse">
-        <div data-aos="fade-up" data-aos-delay="300">
-          <div class="row d-flex align-items-center">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="ight">
-                <p class="m-0">Clean</p>
+      <div class='steps-inverse'>
+        <div data-aos='fade-up' data-aos-delay='300'>
+          <div class='row d-flex align-items-center'>
+            <div class='col-lg-6 col-md-6 col-sm-12'>
+              <div class='ight'>
+                <p class='m-0'>Clean</p>
                 <h2>We clean your clothes</h2>
                 <p>Save time money and energy and start washing with us</p>
-                <p><i class="bi bi-check-square-fill"></i> We sort your dirty clothes</p>
-                <p><i class="bi bi-check-square-fill"></i> We clean the clothes</p>
-                <p><i class="bi bi-check-square-fill"></i> We iron and fold</p>
+                <p><i class='bi bi-check-square-fill'></i> We sort your dirty clothes</p>
+                <p><i class='bi bi-check-square-fill'></i> We clean the clothes</p>
+                <p><i class='bi bi-check-square-fill'></i> We iron and fold</p>
               </div>
             </div>
 
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="left">
-                <img src="./pexels-pixabay-325876.jpg" alt="" class="schedule-photo">
-                <div class="photo-card-map">
-                  <div data-aos="fade-left" data-aos-delay="400">
-                    <div class="photocard-text">
-                      <div class="text-margin-left">
-                        <h6>Pick-up schedule</h6> 
-                        <div class="map-responsive">
-                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3938.9071275218685!2d7.3643762147355565!3d9.162850493428124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104ddf4e9f694bf9%3A0x1417b06587b52887!2sLaundrix%20Global%20Standard%20Solutions!5e0!3m2!1sen!2sng!4v1644574743837!5m2!1sen!2sng" width="750" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class='col-lg-6 col-md-6 col-sm-12'>
+              <div class='left'>
+                <img src='./images/stock-photo_hung-suits.jpg' alt='' class='schedule-photo'>
+                <div class='photo-card-map'>
+                  <div data-aos='fade-left' data-aos-delay='400'>
+                    <div class='photocard-text'>
+                      <div class='text-margin-left'>
+                        <h6>Pick-up schedule</h6>
+                        <div class='map-responsive'>
+                          <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3938.9071275218685!2d7.3643762147355565!3d9.162850493428124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104ddf4e9f694bf9%3A0x1417b06587b52887!2sLaundrix%20Global%20Standard%20Solutions!5e0!3m2!1sen!2sng!4v1644574743837!5m2!1sen!2sng' width='750' height='450' style='border:0;' allowfullscreen='' loading='lazy'></iframe>
                         </div>
                       </div>
                     </div>
@@ -151,35 +159,35 @@
           </div>
         </div>
       </div>
-  
-      <div class="steps">
-        <div data-aos="fade-up" data-aos-delay="300">
-          <div class="row d-flex align-items-center">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="left">
-                <div class="photocard-icon">
-                  <div data-aos="fade-right" data-aos-delay="1000">
-                    <div class="car-card">
-                      <h6 class=""><i class="fas fa-car"></i> Professional rider</h6> 
+
+      <div class='steps'>
+        <div data-aos='fade-up' data-aos-delay='300'>
+          <div class='row d-flex align-items-center'>
+            <div class='col-lg-6 col-md-6 col-sm-12'>
+              <div class='left'>
+                <div class='photocard-icon'>
+                  <div data-aos='fade-right' data-aos-delay='1000'>
+                    <div class='car-card'>
+                      <h6 class=''><i class='fas fa-car'></i> Professional rider</h6>
                     </div>
                   </div>
                 </div>
-                <img src="./pexels-tima-miroshnichenko-6169135.jpg" alt="" class="schedule-photo">
-                <div class="photo-card"> 
-                  <div data-aos="fade-right" data-aos-delay="350">
-                    <div class="photocard-text">
-                      <div class="text-margin-left">
-                        <h6>delivery schedule</h6> 
-                        <p class="m-0"><i class="bi bi-calendar-date"></i> mon-sat <i class="bi bi-alarm"></i> 8:00-5:00</p>
+                <img src='./images/stock-photo_delivery.jpg' alt='' class='schedule-photo'>
+                <div class='photo-card'>
+                  <div data-aos='fade-right' data-aos-delay='350'>
+                    <div class='photocard-text'>
+                      <div class='text-margin-left'>
+                        <h6>delivery schedule</h6>
+                        <p class='m-0'><i class='bi bi-calendar-date'></i> mon-sat <i class='bi bi-alarm'></i> 8:00-5:00</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="right">
-                <p class="m-0">Delivery</p>
+            <div class='col-lg-6 col-md-6 col-sm-12'>
+              <div class='right'>
+                <p class='m-0'>Delivery</p>
                 <h2>We deliver yours clothes</h2>
                 <p>Save time money and energy and start washing with us, How to schedule?</p>
                 <p> Delivering laundry is not a trivial thing, we will do our best so that
@@ -191,123 +199,96 @@
         </div>
       </div>
     </section>
-    <section id="grid-images">
-    <div data-aos="fade-up" data-aos-delay="300">
-      <h1 class="mb-5">WE ARE PASSIONATE ABOUT LAUNDRY</h1>
-      <div class="btn-ig">
-        <div data-aos="zoom-in" data-aos-delay="800">
-          <a href="https://instagram.com/laundrix__?utm_medium=copy_link"><i class="bi bi-instagram"></i> follow us on instagram</a>
+    <section id='grid-images'>
+    <div data-aos='fade-up' data-aos-delay='300'>
+      <h1 class='mb-5'>WE ARE PASSIONATE ABOUT LAUNDRY</h1>
+      <div class='btn-ig'>
+        <div data-aos='zoom-in' data-aos-delay='800'>
+          <a href='https://instagram.com/laundrix__?utm_medium=copy_link'><i class='bi bi-instagram'></i> follow us on instagram</a>
         </div>
       </div>
-      <div class="row d-flex" id="grid-container">
-      <div class="outer-grid">
-      <div class="" id="grid1">
-        <div data-aos="fade-up" data-aos-delay="600">
-          <img src="./images/wear.jpg" alt="">
+      <div class='row d-flex' id='grid-container'>
+      <div class='outer-grid'>
+      <div class='' id='grid1'>
+        <div data-aos='fade-up' data-aos-delay='600'>
+          <img src='./images/laundrix-flyer.jpg' alt=''>
         </div>
       </div>
-      <div class="" id="grid2">
-        <div data-aos="fade-up" data-aos-delay="700">
-          <img src="./images/comfort.jpg" alt="">
+      <div class='' id='grid2'>
+        <div data-aos='fade-up' data-aos-delay='700'>
+          <img src='./images/laundrix-flyer_comfort.jpg' alt=''>
         </div>
       </div>
-      
-      <div class="" id="grid3">
-        <div data-aos="fade-up" data-aos-delay="800">
-          <img src="./images/pexels-arina-krasnikova-5710039.jpg" alt="">
+
+      <div class='' id='grid3'>
+        <div data-aos='fade-up' data-aos-delay='800'>
+          <img src='./images/stock-photo_folded-laundry.jpg' alt=''>
         </div>
       </div>
-      <div class="" id="grid4">
-        <div data-aos="fade-up" data-aos-delay="900">
-          <img src="./images/clean.jpg" alt="">
+      <div class='' id='grid4'>
+        <div data-aos='fade-up' data-aos-delay='900'>
+          <img src='./images/laundrix-flyer_clean-and-fresh.jpg' alt=''>
         </div>
       </div>
     </div>
     </section>
 
     <section>
-      <div class="form-container">
-        <div data-aos="zoom-out">
+      <div class='form-container'>
+        <div data-aos='zoom-out'>
           <h1>Get amazing promotions when you join our mailing list</h1>
-          <form action="/action_page.php" >
-            <input type="email" class="email" placeholder="Enter your email" name="email" >
-            <input type="submit" class="submit" placeholder="submit">
+          <form action='/action_page.php' >
+            <input type='email' class='email' placeholder='Enter your email' name='email' >
+            <input type='submit' class='submit' placeholder='submit'>
           </form>
         </div>
       </div>
     </section>
-    <hr class="hr" />
-    <section class="">
-      
-      <!-- Footer -->
-      <footer class="">
-        
-        <!-- Grid container -->
-        <div data-aos="fade-up">
-          <div class="container p-4">
-            <!--Grid row-->
-            <div class="row">
-              <!--Grid column-->
-              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase"><img src="./laundrix.png" width="80" height="40" alt=""> LAUNDRIX</h5>
-      
-                <p>
-                  Laundrix Global Standard Solution is the smart laundry solution to all your laundry woes.
-                    We provide affordable laundry service that is designed around you and your needs. 
-                    Getting the laundry done has never been so easy!
-                </p>
-              </div>
-              <!--Grid column-->
-      
-              <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Contact Us</h5>
-      
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="https://instagram.com/laundrix__?utm_medium=copy_link" class="text-dark"><i class="bi bi-instagram"></i> Instagram</a>
-                  </li>
-                  <li>
-                    <a href="https://wa.me/+2347010047283" class="text-dark"><i class="bi bi-whatsapp"></i> Whatsapp</a>
-                  </li>
-                  <li>
-                    <a href="mailto:laundrixglobal@gmail.com" class="text-dark"><i class="bi bi-envelope"></i> G-mail</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-      
-              <!--Grid column-->
-              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase mb-0">Company</h5>
-      
-                <ul class="list-unstyled">
-                  <li>
-                    <a href="#!" class="text-dark">About Us</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-dark">Pricing</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
+
+    <footer class='pt-3'>
+      <div data-aos='fade-up'>
+        <div class='container p-4'>
+          <div class='row'>
+            <div class='col-lg-10 col-md-12 mb-4 mb-md-0'>
+              <h5>
+                <img
+                class='img-fluid'
+                src='./images/laundrix-logo.png'
+                width='60'
+                height='30'
+                alt='Laundrix Global Solutions Icon'
+              > Laundrix Global Standard Solutions
+              </h5>
+              <p class='laundrix-mission'>
+                Laundrix Global Standard Solution is the smart laundry solution to all your laundry woes.
+                We provide affordable laundry service that is designed around you and your needs.
+                Getting the laundry done has never been so easy!
+              </p>
             </div>
-            <!--Grid row-->
+            <div class='col-lg-2 col-md-6 mb-4 mb-md-0'>
+              <h5 class=''>Contact Us</h5>
+              <ul class='list-unstyled'>
+                <li class='mb-2'>
+                  <a href='https://instagram.com/laundrix__?utm_medium=copy_link'><i class='bi bi-instagram'></i> Instagram</a>
+                </li>
+                <li class='mb-2'>
+                  <a href='https://wa.me/+2347010047283'><i class='bi bi-whatsapp'></i> Whatsapp</a>
+                </li>
+                <li class='mb-2'>
+                  <a href='mailto:laundrixglobal@gmail.com'><i class='bi bi-envelope'></i> Email</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <!-- Grid container -->
+      </div>
+      <div class='text-center p-3 copyright text-uppercase'>
+        © 2023 Laundrix Global Standard Solutions
+      </div>
+    </footer>
 
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2022 LAUNDRIX GLOBAL STANDARD SOLUTIONS
-        </div>
-        <!-- Copyright -->
-      </footer>
-      <!-- Footer -->
-    </section>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="laundrix.js"></script>
-    
+    <!-- Scripts -->
+    <script src='https://unpkg.com/aos@2.3.1/dist/aos.js'></script>
+    <script src='laundrix.js'></script>
   </body>
-
 </html>
